@@ -1,0 +1,113 @@
+/*Designing the nevbah*/
+.navbar-custom{
+  background-color: #3399ff;
+  color: #fff;
+  border-radius: 0px; padding: 10px;
+}
+.navbar-custom .navbar-nav>li>a{
+	color: #fff;
+	font-size: 19px;margin-left: 13px;
+}
+.navbar-custom .navbar-nav>.active>a{
+	color: #fff; background-color: #990099;
+}
+.navbar-custom .navbar-nav>.active>a:hover{
+	color: #990099; background-color: #fff;
+}
+.navbar-custom .navbar-nav>li>a:hover{
+  color: #990099; background-color: #fff;
+}
+.navbar-custom .navbar-brand{
+	color: #fff;font-size: 27px;margin-left: 15px;
+}
+.navbar-custom .navbar-brand:hover{
+	color: #fff;font-size: 27px;
+}
+.slider{
+	width: 100%
+	padding: 0px;maegin: 0px;
+}
+
+.carousel-caption{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: -20px;
+}
+b{
+	font-size: 40px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #990099;
+}
+
+/*Services*/
+#Services{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #990099;
+
+}
+.col1{
+	border-style: solid;border-color: #999999;
+	border-width: 1px;min-height: 350px;
+}
+.icons{
+	width: 130px;font-size: 60px;background-color: #d9d9d9;
+	padding: 5px 10px; height: 110px; margin-top: -50px; color: #990099;
+}
+
+.btn-primary{
+	background-color: #990099; border-radius: 3px; border-color: #990099;
+}
+.btn-primary:hover{
+	background-color:  #3399ff; border-radius: 3px; border-color:  #3399ff;
+}
+
+/*about*/
+
+#about{
+	width: 100%;
+	min-height: 600px; background-color:#3399ff; margin-top: 65px; 
+}
+
+#aboutcompany{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	border-bottom-color: #990099;
+	position: relative; top: 35px; color: #fff;
+
+}
+
+/*team*/
+#team{
+	position: relative;top: 40px;
+}
+#ourteam{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #990099;
+}
+.team-member{
+	text-align: center; margin-top: 5px;
+}
+.icon i{
+	font-size: 20px; height: 50px; width: 50px; background-color: #cc66cc;
+	padding :18px; border-radius: 30%;
+}
+.fab{
+	color: #fff;
+}
+.icon i:hover{
+	background-color: #990099;
+}
+
+/*footer*/
+#footer{
+	width: 100%; min-height: 400px;
+	background-color: #282e3e;
+	position: relative;
+	top: 150px;
+}
